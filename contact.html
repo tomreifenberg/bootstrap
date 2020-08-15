@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tom Reifenberg page">
+        <meta name="keywords" content="full stack, web developer, full stack web developer">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!-- <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+        <title>Tom Reifenberg Contact</title>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="images/favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+
+        <a class="navbar-brand" href="#">Tom Reifenberg - Software Engineering</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+
+      <p>Full Stack web developer with focus on full stack JavaScript application and architectures. Well versed in a wide range of programming languages and experienced in every stage of the development life cycle. Certified Scrum Master (CSM).</p>
+
+
+
+      <form action="https://formspree.io/reifenberg.57@gmail.com" method="POST">
+        <div class="form-group">
+          <label for="exampleInputPassword1">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <!-- <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div> -->
+          <div class="form-group">
+            <label for="exampleFormControlFile1">File size maximum: 10</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+        <button type="submit" value="send" class="btn btn-primary">Submit</button>
+      </form>
+
+          
+        <!-- layout and content goes here-->
+        <!-- <main>
+        <p>Full Stack web developer with focus on full stack JavaScript application and architectures. Well versed in a wide range of programming languages and experienced in every stage of the development life cycle. Certified Scrum Master (CSM).</p>
+        <form action="https://formspree.io/reifenberg.57@gmail.com" method="POST">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="text" name="_replyto">  
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+        <div>
+            Upload Your file:
+            <input type="file" name="upload accept="image/png, image/jpeg">            
+        </div>
+        <div>
+            <input type="hidden" name="_subject" value="New submission!">
+        </div>
+        <div>
+            <input type="submit" value="Send">
+        </div> -->
+        <!-- <div>
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="text" name="_replyto">  
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+        <div>
+          <input type="hidden" name="_subject" value="New submission!">
+        </div>
+        <div>
+          <input type="submit" value="Send">
+        </div> -->
+        <!-- <input type="text" name="_gotcha" style="display:none">
+        <input type="hidden" name="_next" value="//tomreifenberg.github.io/thanks.html">
+      </form>
+    </main> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+
+      <script>
+
+        var toggleMenu = document.getElementById('toggleMenu');
+        var nav = document.querySelector('nav');
+        toggleMenu.addEventListener(
+          'click',
+          function(){
+            if(nav.style.display=='block'){
+              nav.style.display='none';
+            }else{
+              nav.style.display='block';
+            }
+          }
+        );
+      </script>
+
+        
+
+    </body>
+</html>
