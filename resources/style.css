@@ -7,6 +7,11 @@
 
 }
 
+section {
+  padding-bottom: 20px;
+}
+
+
 .navbar
 {
     background-color: transparent;
